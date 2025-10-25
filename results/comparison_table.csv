@@ -1,0 +1,36 @@
+Graph ID	Algorithm	MST Cost	Operations	Execution Time (ms)  // before optimization
+1	           Prim	     10.0	         4	       0.039917
+1	           Kruskal	 10.0	         4	       0.007792
+2	           Prim	     11.0	         5	       0.02
+2	           Kruskal	 11.0	         6	       0.007792
+3	           Prim	     12.0	         5	       0.017541
+3	           Kruskal	 12.0	         6	       0.006
+4	           Prim	     100.0	         19	       0.104667
+4	           Kruskal	 100.0	         20	       0.012875
+5	           Prim	     126.0	         25	       0.085833
+5	           Kruskal	 126.0	         25	       0.013625
+6	           Prim	     36.0	         10	       0.024833
+6	           Kruskal	 36.0	         11	       0.006041
+7	           Prim	     51.0	         11	       0.027792
+7	           Kruskal	 51.0	         12	       0.007042
+8	           Prim	     61.0	         13	       0.030208
+8	           Kruskal	 61.0	         13	       0.007209
+
+
+Graph ID	Algorithm	MST Cost	Operations	Execution Time (ms) // after optimization
+1	          Prim	     10.0	          4	        0.013375
+1	          Kruskal	 10.0	          4	        0.033875
+2	          Prim	     11.0	          5	        0.012083
+2	          Kruskal	 11.0	          5	        0.007875
+3	          Prim	     12.0	          5	        0.009959
+3	          Kruskal	 12.0	          5	        0.007417
+4	          Prim	     100.0	          19	    0.045375
+4	          Kruskal	 100.0	          19	    0.025958
+5	          Prim	     126.0	          25	    0.138417
+5	          Kruskal	 126.0	          25	    0.031125
+6	          Prim	     36.0	          10	    0.018083
+6	          Kruskal	 36.0	          10	    0.011041
+7	          Prim       51.0	          11	    0.018416
+7	          Kruskal	 51.0	          11	    0.012709
+8	          Prim	     61.0	          13	    0.014875
+8	          Kruskal	 61.0	          13	    0.0155
